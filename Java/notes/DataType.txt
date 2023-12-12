@@ -1,0 +1,11 @@
+ArrayList:
+ArrayList<Integer> l1 = new ArrayList<>();
+l1.add(2);
+System.out.println(l1);
+
+List:
+private Student[] students;
+Student[] students = new Student[2];
+
+%.2f:
+System.out.println("Area of Triangle: " + t.calc_area());                      -             System.out.printf("Area of Triangle: %.2f\n",t.calc_area());

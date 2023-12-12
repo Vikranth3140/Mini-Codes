@@ -1,0 +1,5 @@
+ for (int i = 0; i <= this.degree; i++) {
+            if (coefficients.get(i) instanceof Integer && other.coefficients.get(i) instanceof Integer) {
+                coefficients.set(i, coefficients.get(i) + other.coefficients.get(i));
+            }
+        }
